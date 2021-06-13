@@ -5,30 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
   <title>Gradients | Welcome</title>
 </head>
 <body>
+  
   <header id="mainheader">
-    <nav id="navbar" class="pt-1 pb-1">
+    <nav id="navbar">
       <div class="container">
         <h1 class="logo">Gradients</h1>
         <ul>
           <li><a href="#services">Services</a></li>
-          <li><a href="#contact-form">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <div id="showcase" class="pt-5 pb-5">
+    <div id="showcase">
       <div class="container">
-        <img src="img/logo.png" alt="" class="pb-3">
-        <p class="large pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis tempore iste quos beatae magnam fugit, consequatur fuga alias, nam nostrum iure ipsa at iusto.</p>
-        <a href="#services" class="btn btn-red btn-w100">Services</a>
+        <img src="img/logo.png" alt="">
+        <p class="large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, similique sit. Facilis quia corrupti quo vero amet quibusdam reprehenderit doloribus!</p>
+        <a href="#services" class="btn btn-red">Services</a>
       </div>
     </div>
   </header>
 
-  <div id="clients" class="pt-2 pb-2">
+  <section id="clients">
     <div class="container">
       <div class="client-box">
         <img src="img/client-1.png" alt="">
@@ -43,64 +43,64 @@
         <img src="img/client-4.png" alt="">
       </div>
     </div>
-  </div>
+  </section>
 
-  <div id="services" class="pt-5 pb-5">
+  <section id="services">
     <div class="container">
-      <h4 class="pb-1">Porttitor rhoncus dolor purus</h4>
-      <p class="large pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet</p>
+      <h4>This is our Services</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, non ullam. Possimus deserunt accusamus sequi.</p>
       <div class="service-box">
         <img src="img/service-1.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In minus assumenda tempora est aliquam praesentium, excepturi nulla quo velit beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora illum explicabo ipsum quaerat reiciendis velit commodi, enim at autem?</p>
       </div>
       <div class="service-box">
         <img src="img/service-2.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In minus assumenda tempora est aliquam praesentium, excepturi nulla quo velit beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora illum explicabo ipsum quaerat reiciendis velit commodi, enim at autem?</p>
       </div>
       <div class="service-box">
         <img src="img/service-3.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In minus assumenda tempora est aliquam praesentium, excepturi nulla quo velit beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora illum explicabo ipsum quaerat reiciendis velit commodi, enim at autem?</p>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div id="testimonial" class="pt-3 pb-3">
+  <section id="testimonial">
     <div class="container">
-      <p class="large pb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex sed sequi voluptatum molestias nisi tempora vitae commodi! Repellat dicta esse, alias, saepe eligendi eius odit fugit sunt, facere obcaecati aperiam amet? Excepturi tempora perferendis magni doloribus blanditiis aperiam soluta, aliquid obcaecati labore. Optio molestias ex nobis eaque neque impedit facere!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio quam porro non iure id obcaecati earum consequatur, possimus reprehenderit eveniet, fugit facilis eaque dolores voluptas voluptatem? Quaerat soluta molestias eum, laudantium consectetur incidunt saepe iusto sit rerum reprehenderit porro quia similique vitae perspiciatis dolores omnis! Inventore quidem quaerat perspiciatis blanditiis esse doloribus quibusdam obcaecati ut cumque qui distinctio, error eligendi non. Laudantium reprehenderit hic tenetur praesentium? Tempore tempora ex ea vel reiciendis, quae atque dignissimos quia inventore suscipit voluptates? In qui sed magnam inventore, repellendus consequuntur ipsam facilis pariatur enim, minima nulla earum repudiandae. Inventore aspernatur distinctio fuga ut veritatis?</p>
       <div class="testimonial-detail">
-        <div class="testimonial-detail-img pb-1">
+        <div class="testimonial-detail-img">
           <img src="img/testimonial.jpg" alt="">
         </div>
         <div class="testimonial-detail-name">
-          <p>Joe Doe <br>Manager</p>
+          <p>Jane Doe <br> Manager</p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div id="contact-form" class="pt-5 pb-5">
+  <section id="contact">
     <div class="container">
-      <h4 class="pb-2">Porttitor rhoncus dolor purus</h4>
-      <form>
+      <h4>Send us a Message</h4>
+      <form action="">
         <div class="form-group">
           <label for="name">Name</label>
-          <input type="text">
+          <input class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="name">Email</label>
-          <input type="text">
+          <label for="email">Email</label>
+          <input class="form-control" type="email">
         </div>
         <div class="form-group">
-          <label for="name">Message</label>
-          <textarea cols="30" rows="10"></textarea>
+          <label for="message">Message</label>
+          <textarea class="form-control" name="message" id="" cols="30" rows="10"></textarea>
         </div>
-        <button class="btn btn-red" type="submit">Send Message</button>
+        <button class="btn btn-red">Send Message</button>
       </form>
     </div>
-  </div>
+  </section>
 
-  <footer id="mainfooter" class="pt-2 pb-2">
-    <p><a href="https://twitter.com/irimaya?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @irimaya</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+  <footer id="mainfooter">
+    <a href="https://twitter.com/irimaya?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @irimaya</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </footer>
 
 </body>
